@@ -66,31 +66,18 @@ Before running this project, ensure you have the following:
 To get started with the project, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
+
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/hariom710/BankingApplication.git
+
 Navigate to the project folder:
-
-bash
-Copy
-Edit
 cd BankingApplication
-Compile the project:
 
-bash
-Copy
-Edit
+Compile the project:
 cd src
 javac -d ../out Banking_management_system/*.java banking_application/*.java
-Run the application:
 
-bash
-Copy
-Edit
+Run the application:
 java -cp "../out;../lib/mysql-connector-j-9.1.0.jar" banking_application.BankingApp
 (For macOS/Linux, replace ; with : in the -cp option.)
 
@@ -98,7 +85,7 @@ java -cp "../out;../lib/mysql-connector-j-9.1.0.jar" banking_application.Banking
 
 Customization (Optional): Feel free to modify the content, add more destinations, or change the visuals to fit your own safari packages.
 
-# Contributing
+# 🤝 Contributingg
 We welcome contributions to Banking Application If you'd like to add new features follow these steps:
 
 Fork the repository.
@@ -109,12 +96,12 @@ Push to the branch (git push origin feature-branch).
 Open a Pull Request to the main branch.
 Before submitting a pull request, ensure your code is properly formatted and includes necessary comments.
 
-# Code of Conduct
+# 🧑‍💻 Code of Conduct
 This project follows the Contributor Covenant Code of Conduct. We are committed to maintaining a harassment-free environment for all participants.
 
 Please follow the guidelines outlined in the CODE_OF_CONDUCT.md file for more details.
 
-# License
+# 📜 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ### Key Sections:
@@ -124,5 +111,9 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - **How to Use**: Provided clear steps on how to clone and run the project.
 - **Contributing**: Explained how to contribute to the repository.
 - **License**: Basic information about the license for the project.
+
+🌟 Acknowledgements
+Built with ❤️ using Java and MySQL.
+Special thanks to open-source contributors and the development community.
 
 This `README.md` provides an organized and clear introduction to your **Banking Application** project. You can expand or adjust the sections as your project grows.
