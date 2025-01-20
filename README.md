@@ -66,20 +66,20 @@ Before running this project, ensure you have the following:
 To get started with the project, follow these steps:
 
 1. **Clone the repository**:
-```bash
-Clone the repository:
-git clone https://github.com/hariom710/BankingApplication.git
+    ```bash
+    Clone the repository:
+    git clone https://github.com/hariom710/BankingApplication.git
 
-Navigate to the project folder:
-cd BankingApplication
+    Navigate to the project folder:
+    cd BankingApplication
 
-Compile the project:
-cd src
-javac -d ../out Banking_management_system/*.java banking_application/*.java
+    Compile the project:
+    cd src
+    javac -d ../out Banking_management_system/*.java banking_application/*.java
 
-Run the application:
-java -cp "../out;../lib/mysql-connector-j-9.1.0.jar" banking_application.BankingApp
-(For macOS/Linux, replace ; with : in the -cp option.)
+    Run the application:
+    java -cp "../out;../lib/mysql-connector-j-9.1.0.jar" banking_application.BankingApp
+    (For macOS/Linux, replace ; with : in the -cp option.)
 
 
 
