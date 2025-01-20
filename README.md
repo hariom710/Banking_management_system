@@ -66,7 +66,7 @@ Before running this project, ensure you have the following:
 To get started with the project, follow these steps:
 
 1. **Clone the repository**:
-
+```bash
 Clone the repository:
 git clone https://github.com/hariom710/BankingApplication.git
 
