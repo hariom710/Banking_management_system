@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class BankingApp {
     private static final String url = "jdbc:mysql://localhost:3306/bank_application";
     private static final String username = "root";
-    private static final String password = "Hailstorm@4351";
+    private static final String password = "Password@123";
 
     public static void main(String[] args) {
         try {
