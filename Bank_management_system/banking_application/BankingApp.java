@@ -3,6 +3,8 @@ package banking_application;
 import java.sql.*;
 import java.util.Scanner;
 
+import Banking_management_system.User;
+
 public class BankingApp {
     private static final String url = "jdbc:mysql://localhost:3306/bank_application";
     private static final String username = "root";
@@ -55,7 +57,7 @@ public class BankingApp {
         user.register();
     }
 
-    private static void loginUser(User user, Accounts accounts, Bank_Manager bank_manager, Scanner scanner) {
+    private static void loginUser(User user, Accounts accounts, Bank_Manager bank_manager, Scanner scanner) throws SQLException {
         String email = user.login();
         if (email != null) {
             handleUserOperations(email, accounts, bank_manager, scanner);
@@ -64,7 +66,7 @@ public class BankingApp {
         }
     }
 
-    private static void handleUserOperations(String email, Accounts accounts, Bank_Manager bank_manager, Scanner scanner) {
+    private static void handleUserOperations(String email, Accounts accounts, Bank_Manager bank_manager, Scanner scanner) throws SQLException {
         if (!accounts.account_exist(email)) {
             System.out.println("1. Open a new Bank Account");
             System.out.println("2. Exit");
